@@ -14,37 +14,48 @@ body {
 }
 
 main {
-    background-color: #fff;
+    background-color: #f0f0f0;
     padding: 30px 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
+    border:#000000 solid;
 }
-
+#main{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 h2 {
     text-align: center;
-    padding: 0.4rem 2.9rem 0.2rem 0rem;
+    padding: 0.4rem 3rem 1rem 3rem;
     margin-bottom: 20px;
     color: #000000;
-    font-size: 40px;
+    font-size: 30px;
+    display: flex;
 }
-#main p{
-    padding: 0rem 0rem 1rem 2rem
+#inicial p{
+    padding: 0rem 3rem 1rem 3.2rem;
 
 }
-label {
-    font-weight: bold;
-    margin-bottom: 5px;
-    padding: 1rem 0rem 1rem 3.9rem;
-    align-items: center;
+#inicial input{
+    margin: 0rem 1.5rem;
 }
+#main label {
+    font-weight: bold;
+    padding: 1rem 0rem 0rem 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 input {
     padding: 0.9rem;
     border: 1px solid #000000;
     border-radius: 4px;
-    align-items: center;
 }
 
 button {
@@ -57,9 +68,12 @@ button {
     font-weight: bold;
 }
 #entradaCep{
-    padding-left: 2px;
+    padding-left: 1rem;
+    padding-right: 3rem;
     height:70px;
     width: 80%;
    
 }
-  
+#inicial{
+    padding: 0rem 0rem 1rem 0rem;
+}
